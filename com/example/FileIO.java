@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 /**
- * FileIO.java
+ * FileIO.java.
  *
  * @author Spencer Scarlett
  * @version 1.0
@@ -18,7 +18,7 @@ import java.util.Scanner;
 public final class FileIO {
 
   /**
-   * Makes style checker happy
+   * Makes style checker happy.
    *
    * @exception IllegalStateException Utility class.
    * @see IllegalStateException
@@ -34,7 +34,7 @@ public final class FileIO {
    */
 
   // Main function
-  public static void main(String[] args) {
+  public final static void main(String[] args) {
     // Finds and preps filepaths
     final File fileInput = new File("input.txt");
     final File fileOutput = new File("output.txt");
