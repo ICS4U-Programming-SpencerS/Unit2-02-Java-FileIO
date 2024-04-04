@@ -34,7 +34,7 @@ public final class FileIO {
    */
 
   // Main function
-  public final static void main(String[] args) {
+  public static void main(final String[] args) {
     // Finds and preps filepaths
     final File fileInput = new File("input.txt");
     final File fileOutput = new File("output.txt");
